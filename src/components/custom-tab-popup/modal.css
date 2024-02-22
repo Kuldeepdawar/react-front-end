@@ -1,0 +1,55 @@
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #32c22d;
+  animation-name: animateTime;
+  animation-duration: 0.5s;
+}
+
+.content {
+  position: relative;
+  background-color: #177e68;
+  margin: auto;
+  padding: 0;
+  border: 4px solid red;
+  width: 70%;
+}
+.close-modal-icon {
+  cursor: pointer;
+  font-size: 40px;
+  float: right;
+  font-weight: bold;
+}
+.header {
+  padding: 4px 16px;
+  background-color: #5cb85c;
+  color: #fff;
+}
+.body {
+  padding: 4px 13px;
+}
+
+.footer {
+  padding: 5px 10px;
+  background-color: yellow;
+  columns: rgb(125, 54, 54);
+  font-size: 20px;
+  color: pink;
+}
+
+@keyframes animateTime {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
