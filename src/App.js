@@ -4,6 +4,11 @@ import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/tab-button/tab-test";
 import ModalTest from "./components/custom-tab-popup/modal.test";
+import Github from "./components/github-api";
+import GithubUser from "./components/github-api";
+import SearchAutoComplete from "./components/search-autocomplete";
+import TicTacToe from "./components/tic-tac-toe";
+import UseFtechTest from "./components/use-fetch/test";
 
 function App() {
   return (
@@ -15,7 +20,10 @@ function App() {
 
       {/* <TabTest />*/}
       {/* showPopup*/}
-      <ModalTest />
+      {/* <GithubUser /> />*/}
+      {/*   <SearchAutoComplete />*/}
+      {/*<TicTacToe />*/}
+      <UseFtechTest />
     </div>
   );
 }
